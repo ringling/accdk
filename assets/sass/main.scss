@@ -13,12 +13,12 @@
 */
 
 // Breakpoints.
-@include breakpoints(( wide : ( 1281px, 1680px),
-normal : ( 981px, 1280px),
-narrow : ( 841px, 980px),
-narrower : ( 737px, 840px),
-mobile : ( 481px, 736px),
-mobilep : ( null, 480px)));
+@include breakpoints(( wide: ( 1281px, 1680px),
+normal: ( 981px, 1280px),
+narrow: ( 841px, 980px),
+narrower: ( 737px, 840px),
+mobile: ( 481px, 736px),
+mobilep: ( null, 480px)));
 // Reset.
 // Based on meyerweb.com/eric/tools/css/reset (v2.0 | 20110126 | License: public domain)
 html,
@@ -1803,4 +1803,8 @@ body.landing {
   margin-left: auto;
   margin-right: auto;
   width: 50%;
+}
+
+.org-pic img {
+	max-height: 200px;
 }

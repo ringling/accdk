@@ -2474,4 +2474,7 @@ body.landing #page-wrapper {
   margin-right: auto;
   width: 50%; }
 
+.org-pic img {
+  max-height: 200px; }
+
 /*# sourceMappingURL=main.css.map */
