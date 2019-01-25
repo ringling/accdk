@@ -1,5 +1,10 @@
 # accdk website
 
+
+## Development
+
+`ruby -run -e httpd . -p 5000`
+
 ## Digital Ocean Ubuntu VPS setup
 
 IP: 138.68.81.163
