@@ -51,3 +51,18 @@ or run command below in the background during development
 ## Deploy
 
 `rsync -avz --exclude 'conf' --exclude '.git' --exclude '.sass-cache' . root@138.68.81.163:/var/www/accdk.org/html`
+
+
+## SSL Certificates
+
+### Create
+
+```
+sudo certbot --nginx -d accdk.org -d www.accdk.org
+```
+
+### Renew
+
+```
+sudo certbot renew
+```
